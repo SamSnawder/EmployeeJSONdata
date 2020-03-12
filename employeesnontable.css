@@ -1,0 +1,58 @@
+body
+{ background-color:antiquewhite;
+}
+
+.employee
+{
+    border: solid black 3px;
+    box-shadow: 5px 5px grey;
+}
+
+p
+{
+    margin: 5px;
+    text-align: center;
+}
+
+.eName
+{
+   
+    font-weight: 800;
+    clear:left;
+    
+    
+}
+
+.detail
+{
+    clear: right;
+}
+
+.title
+{
+    clear: right;
+}
+
+.department
+{
+    clear: right;
+}
+
+.email
+{
+   clear: right; 
+}
+
+img
+{
+    float: left;
+    margin: 5px;
+    margin-top: 18px;
+    
+   
+}
+
+.bio
+{
+   clear: right; 
+}
