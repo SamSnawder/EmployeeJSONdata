@@ -8,12 +8,20 @@ employeePromise.then(function(employee)
 
 var displayDiv = function(employee)
     {
-        var sections = d3.select(".employee")
-        .selectAll("div")
+        var sections = d3.select("div")
+        .selectAll(".employee")
         .data(employee)
         .enter()
-        .append("div")
-        
-        sections.append(".eName")
-        .text(function(employee){return employee.firstName + blank + lastName})
+        .append(".employee")
+        rows.append(".ename")
+        .text(function(employee){return employee.firstName + blank + employee.lastName})
+    }
+var displayDiv = function(employee)
+    {
+        var paragraphs = d3.select("body")
+        .selectAll("p")
+        .data(employee)
+        .enter()
+        .append("p")
+        .text (function(employee){return employee.bio})
     }
